@@ -15,6 +15,6 @@ Some resources:
 * Prettier in ESLint: https://prettier.io/docs/en/integrating-with-linters.html#use-eslint-to-run-prettier
 
 Some notes: 
-* `.prettierrc` is left in to ensure formatting of JSON files as well since the Prettier plugin requires a config file, even if it is empty, to work.
 * Some VSCode settings are set up to override some User rules that allow me to use Prettier globally on my machine.
 * The ESLint output on VScode says `No ESLint configuration (e.g .eslintrc) found for file: c:\Users\Sammy-Surface\Development\Learning\WorkspaceReactTSSetup\workspace-setup\src\App.tsx File will not be validated. Alternatively you can disable ESLint by executing the 'Disable ESLint' command.`. I think it is because ESLint is running Prettier for `tsx` files, but I am not 100% sure.
+* Only the ESLint VSCode plugin is recommended.
