@@ -7,9 +7,14 @@ I will use this project to reference how to:
 
 For the benefit of my own sanity. 
 
-Please feel free to point out if something is out of place in the settings. I know this is not the best config setup, but it is one that mostly works.
+Please feel free to point out if something is out of place in the settings. I know this is not the best config setup, but it is one that mostly works. Also, this is a learning opportunity for me as well. 
 
 Some resources: 
 * ESLint in Create-React-App: https://facebook.github.io/create-react-app/docs/setting-up-your-editor#displaying-lint-output-in-the-editor
 * TypeScript in ESLint: https://github.com/typescript-eslint/typescript-eslint#how-do-i-configure-my-project-to-use-typescript-eslint
 * Prettier in ESLint: https://prettier.io/docs/en/integrating-with-linters.html#use-eslint-to-run-prettier
+
+Some notes: 
+* `.prettierrc` is left in to ensure formatting of JSON files as well.
+* Some VSCode settings are set up to override some User rules that allow me to use Prettier globally on my machine.
+* The ESLint output on VScode says `No ESLint configuration (e.g .eslintrc) found for file: c:\Users\Sammy-Surface\Development\Learning\WorkspaceReactTSSetup\workspace-setup\src\App.tsx File will not be validated. Alternatively you can disable ESLint by executing the 'Disable ESLint' command.`. I think it is because ESLint is running Prettier for `tsx` files, but I am not 100% sure.
