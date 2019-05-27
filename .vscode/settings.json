@@ -20,4 +20,5 @@
   },
   // For viewing the status of ESLint
   "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
 }
