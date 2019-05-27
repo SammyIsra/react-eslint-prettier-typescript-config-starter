@@ -18,9 +18,13 @@ Also, this is a learning opportunity for me as well, so input is appreciated.
 * Prettier in ESLint: https://prettier.io/docs/en/integrating-with-linters.html#use-eslint-to-run-prettier
 
 ### 📝 Some notes: ###
-* Some VSCode settings are set up to override some User rules that allow me to use Prettier globally on my machine.
-* The ESLint output on VScode says `No ESLint configuration (e.g .eslintrc) found for file: c:\Users\Sammy-Surface\Development\Learning\WorkspaceReactTSSetup\workspace-setup\src\App.tsx File will not be validated. Alternatively you can disable ESLint by executing the 'Disable ESLint' command.`. I think it is because ESLint is running Prettier for `tsx` files, but I am not 100% sure. Also, VSCode says that ESLint was not able to format a `.tsx` file when I save but... It *is* formatted, and the formatting on save is disabled when I disable the ESLint plugin si... idk 🤷‍♂️🤷‍♂️🤷‍♂️
-* Only the ESLint VSCode plugin is recommended.
+* Some VSCode workspace settings (inside of `\.vscode`) are set up to override some User VSCode settings that allow me to use Prettier globally on my machine.
+* The ESLint output on VScode says `No ESLint configuration (e.g .eslintrc) found for file: c:\Users\Sammy-Surface\Development\Learning\WorkspaceReactTSSetup\workspace-setup\src\App.tsx File will not be validated. Alternatively you can disable ESLint by executing the 'Disable ESLint' command.`. I think it is because ESLint is running Prettier for `tsx` files, but I am not 100% sure. Also, VSCode says that ESLint was not able to format a `.tsx` file when I save but... It *is* formatted, and the formatting on save is disabled when I disable the ESLint plugin so... idk 🤷‍♂️🤷‍♂️🤷‍♂️
+* Only the ESLint VSCode plugin is recommended, since that's what VSCode uses to format files on save.
+* While the entire project is on the repo, the more important files I want to keep track of in this repo are the settings and config files, like
+  * `.eslintrc.json`
+  * `package.json`
+  * What's inside the `\.vscode` folder
 
 ### 😱 Some opinions: ###
 * For someone that doesn't do config setups often, this dance was kind of complicated, which is the entire reason why I set up this repo.
